@@ -7,8 +7,45 @@ header {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #1a7aff;
+}
+
+header a {
     color: #031c4e;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 37px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+/* UTILITIES */
+
+.blue {
+    color: #006aff;
+}
+
+.button.bg-blue {
+    background-color: #579aff;
+    color: white;
+    font-weight: bold;
+}
+
+.button.bg-white {
+    color: gray;
+    border: 1px solid gray;
 }
 
 .container {
@@ -55,7 +92,70 @@ a {
 }
 
 .button {
-    color: #006aff;
     border: 1px solid currentColor;
     padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* HERO */
+
+.hero {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-image: url("../img/bg-banner-home.jpg");
+    background-position: center;
+}
+
+.hero-text p {
+    color: rgba(255, 255, 255, .8);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hero-signup {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.hero-signup input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ddd;
+}
+
+.hero-signup span {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-signup span.button.google {
+    position: relative;
+}
+
+.hero-signup span.button.google img {
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.hero-signup h2,
+.hero-signup input,
+.hero-signup span {
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 55px;
+    }
 }

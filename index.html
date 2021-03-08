@@ -17,7 +17,7 @@
     <header>
         <div class="container clearfix">
             <!-- logo -->
-            <div class="nav col-xs-4 col-md-3 padding-0">
+            <div class="nav col-xs-4 col-md-3">
                 <img src="./img/logo.png" alt="">
             </div>
 
@@ -58,18 +58,35 @@
                         <a href="#">Login</a>
                     </li>
                     <li class="list-inline">
-                        <a class="button" href="#">Sign up</a>
+                        <a class="button blue" href="#">Sign up</a>
                     </li>
                 </ul>
             </div> 
         </div>
     </header>
 
-    <main class="container">
+    <main>
         <section class="hero">
-            <!-- Testo -->
-            <h1>The simplest cloud platform for developers & teams</h1>
-            <!-- Form Get Started -->
+            <div class="container">
+                <!-- Testo -->
+                <div class="hero-text col-xs-12 col-sm-7 col-md-7">
+                    <h1>The simplest cloud platform for developers & teams</h1>
+                    <p>Depliy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousands.</p>
+                </div>
+                <!-- Form Get Started -->
+                <div class="hero-signup col-xs-12 col-sm-5 col-md-5 text-center">
+                    <h2>Deploy your app in seconds</h2>
+                    <h2 class="blue">Get started now</h2>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <input type="password" placeholder="Password" name="password" id="password">
+                    <span class="button bg-blue">Create your account</span>
+                    <span class="button google bg-white">
+                        <img src="./img/google-icon.png" alt="">
+                        Sign up with Google
+                    </span>
+                    <span>By sign up you agree with <a href="#">Term of Service</a></span>
+                </div>
+            </div>
         </section>    
     </main>
     
