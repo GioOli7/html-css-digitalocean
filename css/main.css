@@ -181,13 +181,19 @@ p {
     padding-top: 90px;
 }
 
-.deploy h2{
+.deploy h2,
+.deploy h3{
     color: #031c4e;
     margin-bottom: 15px;
 }
 
+.deploy p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
 .deploy-bottom {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -201,6 +207,15 @@ p {
     margin-bottom: 15px;
     padding-left: 15px;
     font-size: 20px;
+}
+
+.deploy-bottom .cards > div{
+    margin-bottom: 20px;
+}
+
+
+.deploy-bottom .cards h3 {
+    margin-top: 10px;
 }
 
 
