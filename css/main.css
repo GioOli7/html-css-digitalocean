@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
 }
 
 a {
@@ -33,6 +33,12 @@ p {
 
 /* UTILITIES */
 
+.list-inline {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
 .text-gray {
     color: #5c6a88;
 }
@@ -53,11 +59,8 @@ p {
 }
 
 .container {
-    padding: 10px;
-}
-
-.nav {
-    /* padding: 10px 0px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav img {
@@ -82,7 +85,7 @@ p {
     float: right;
     padding: 1px;
     width: 30px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     /* height: 30px; */
     /* background-color: red; */
 }
@@ -200,12 +203,13 @@ p {
 .deploy-bottom ul {
     list-style: none;
     border-left: 2px solid lightgray;
+    padding-left: 10px;
 }
 
 .deploy-bottom ul li{
     color: gray;
     margin-bottom: 15px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     font-size: 20px;
 }
 
