@@ -24,8 +24,12 @@ a {
 }
 
 .nav ul li a.arrow:after {
-    font-family: "FontAwesome 5 free";
+    font-family: "Font Awesome 5 Free";
     content: "\f078";
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: bottom;
+    font-weight: 900;
 }
 
 
