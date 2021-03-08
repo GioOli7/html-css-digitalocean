@@ -33,8 +33,9 @@
 }
 
 .list-inline {
-    display: inline;
+    display: inline-block;
     list-style: none;
+    margin-right: 10px;
 }
 
 /***************************** LAYOUT COLONNE DODICESIMI****************************/
