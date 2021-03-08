@@ -23,6 +23,11 @@ a {
     margin-top: 5px;
 }
 
+.nav ul li a.arrow:after {
+    font-family: "FontAwesome 5 free";
+    content: "\f078";
+}
+
 
 .hamburger {
     /* display: inline-block; */
