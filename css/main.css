@@ -151,6 +151,32 @@ p {
     margin-bottom: 20px;
 }
 
+/* BRAND */
+.brand {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f3f5f9;
+}
+
+.brand h4 {
+    color: gray;
+}
+
+.brand ul li.col-xs-6 {
+    width: calc(100% / 2 - 10px);
+}
+
+.brand ul li.list-inline {
+    margin-right: 0;
+}
+
+.brand ul li a img {
+    width: 190px;
+    height: 150px;
+}
+
+
+
 
 /* RESPONSIVE */
 
