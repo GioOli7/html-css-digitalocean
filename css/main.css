@@ -259,6 +259,10 @@ p {
     margin: 50px auto;
 }
 
+.slide-section .slide .arrow {
+    height: 100%;
+}
+
 .slide-section  .slide img {
     max-width: 100%;
     margin-bottom: 15px;
