@@ -30,7 +30,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* UTILITIES */
@@ -194,7 +194,7 @@ p {
 
 /* DEPLOY */
 .deploy {
-    padding-top: 90px;
+    padding-top: 40px;
 }
 
 .deploy h2,
@@ -237,8 +237,8 @@ p {
 
 /* SLIDE SECTION */
 .slide-section {
-    padding-top: 90px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .slide {
@@ -260,6 +260,21 @@ p {
 
 .slide .scorrimento {
     margin-top: 30px;
+}
+
+/* SECTION FEATURES */
+
+.features {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.features .card{
+    margin-bottom: 35px;
 }
 
 /* RESPONSIVE */
