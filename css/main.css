@@ -18,18 +18,19 @@ header a {
 }
 
 h1 {
-    font-size: 37px;
+    font-size: 46px;
+    font-weight: 600;
     color: white;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    color: #031c4e;
 }
 
 p {
     font-size: 20px;
-    font-weight: bold;
-    line-height: 1.8rem;
 }
 
 /* UTILITIES */
@@ -46,6 +47,10 @@ p {
 
 .blue {
     color: #006aff;
+}
+
+.bg-gray {
+    background-color: #f3f5f9;
 }
 
 .button.bg-blue {
@@ -163,7 +168,6 @@ p {
 .brand {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #f3f5f9;
 }
 
 .brand h4 {
@@ -214,13 +218,19 @@ p {
     font-size: 20px;
 }
 
-.deploy-bottom .cards > div{
-    margin-bottom: 20px;
+.deploy-bottom .cards .card{
+    margin-bottom: 35px;
 }
 
 
-.deploy-bottom .cards h3 {
+.deploy-bottom .cards .card h3 {
     margin-top: 10px;
+}
+
+/* SLIDE SECTION */
+.slide-section {
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
 
 
