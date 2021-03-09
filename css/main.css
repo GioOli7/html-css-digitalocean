@@ -121,7 +121,7 @@ p {
 /* HERO */
 
 .hero {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 30px;
     background-image: url("../img/bg-banner-home.jpg");
     background-position: center;
@@ -209,7 +209,7 @@ p {
 }
 
 .deploy-bottom {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -275,6 +275,49 @@ p {
 
 .features .card{
     margin-bottom: 35px;
+}
+
+/* section countries */
+
+.countries {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background: linear-gradient(180deg, #0048c5, #001e9a);
+}
+
+.countries h2 {
+    color: white;
+}
+
+.countries .tabella-countries {
+    margin-bottom: 40px;
+}
+
+.countries .riga {
+    line-height: 30px;
+    border-bottom: 1px solid white;
+} 
+
+.countries .c-abbr {
+    display: inline-block;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+}
+.countries .country {
+    display: inline-block;
+    width: 55%;
+    color: lightgray;
+}
+.countries .test-speed {
+    display: inline-block;
+    width: 27%;
+    text-align: right;
+}
+
+.countries .test-speed a {
+    color: #00d5d2;
+    text-decoration: none;
 }
 
 /* RESPONSIVE */
