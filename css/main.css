@@ -45,6 +45,10 @@ p {
     color: #5c6a88;
 }
 
+.text-darkblue {
+    color: #031c4e;
+}
+
 .blue {
     color: #006aff;
 }
@@ -62,6 +66,10 @@ p {
 .button.bg-white {
     color: gray;
     border: 1px solid gray;
+}
+
+.fw-bold {
+    font-weight: bold;
 }
 
 .container {
@@ -233,7 +241,26 @@ p {
     padding-bottom: 70px;
 }
 
+.slide {
+    position: relative;
+    max-width: 70%;
+    margin: 50px auto;
+}
 
+.slide img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.slide .row i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slide .scorrimento {
+    margin-top: 30px;
+}
 
 /* RESPONSIVE */
 
@@ -243,6 +270,13 @@ p {
         width: 100%;
         height: auto;
     }
+
+    /* .slide-section .slide::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f053";
+        display: inline-block;
+        
+    } */
 }
 
 
