@@ -432,7 +432,10 @@ footer .social div {
     margin-bottom: 5px;
 }
 
-footer .icons {
+footer .icons a{
+    font-size: 30px;
+    text-decoration: none;
+    color: gray;
     font-size: 30px;
 }
 
@@ -451,7 +454,7 @@ footer ul li {
     list-style: none;
 }
 
-footer ul li:first-child a {
+footer ul li:first-child {
     font-size: 2rem;
     color: white;
 }
