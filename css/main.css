@@ -263,7 +263,6 @@ p {
 .slide-section .slide {
     position: relative;
     max-width: 70%;
-    height: 100%; /*TEST*/
     margin: 50px auto;
 }
 
@@ -422,6 +421,42 @@ p {
 .get-started * {
     margin-bottom: 30px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #031c4e;
+}
+
+footer .social div {
+    margin-bottom: 5px;
+}
+
+footer .icons {
+    font-size: 30px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li:first-child a {
+    font-size: 2rem;
+    color: white;
+}
+
+
 
 /* RESPONSIVE */
 
