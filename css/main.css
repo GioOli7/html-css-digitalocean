@@ -35,6 +35,10 @@ p {
 
 /* UTILITIES */
 
+.disp-block {
+    display: block;
+}
+
 .list-inline {
     display: inline-block;
     list-style: none;
@@ -55,6 +59,10 @@ p {
 
 .bg-gray {
     background-color: #f3f5f9;
+}
+
+.bg-white {
+    background-color: #fff;
 }
 
 .button.bg-blue {
@@ -241,24 +249,24 @@ p {
     padding-bottom: 30px;
 }
 
-.slide {
+.slide-section .slide {
     position: relative;
     max-width: 70%;
     margin: 50px auto;
 }
 
-.slide img {
+.slide-section  .slide img {
     max-width: 100%;
     margin-bottom: 15px;
 }
 
-.slide .row i {
+.slide-section  .slide .row i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.slide .scorrimento {
+.slide-section  .slide .scorrimento {
     margin-top: 30px;
 }
 
@@ -294,7 +302,7 @@ p {
 }
 
 .countries .riga {
-    line-height: 30px;
+    line-height: 35px;
     border-bottom: 1px solid white;
 } 
 
@@ -320,6 +328,48 @@ p {
     text-decoration: none;
 }
 
+
+/* ROCKERBOX */
+
+
+.rockerbox {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.rockerbox .slide {
+    position: relative;
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.rockerbox .slide .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rockerbox .slide a {
+    padding-top: 20px;
+}
+
+.rockerbox .slide p {
+    font-size: 24px;
+}
+
+.rockerbox .slide img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.rockerbox .slide .row i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rockerbox .slide .scorrimento {
+    margin-top: 30px;
+}
 /* RESPONSIVE */
 
 /* schermo da 768px in su */
