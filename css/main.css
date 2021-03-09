@@ -65,6 +65,10 @@ p {
     background-color: #fff;
 }
 
+.bg-gradient {
+    background: linear-gradient(180deg, #0048c5, #001e9a);
+}
+
 .button.bg-blue {
     background-color: #579aff;
     color: white;
@@ -290,7 +294,6 @@ p {
 .countries {
     padding-top: 40px;
     padding-bottom: 30px;
-    background: linear-gradient(180deg, #0048c5, #001e9a);
 }
 
 .countries h2 {
@@ -370,6 +373,29 @@ p {
 .rockerbox .slide .scorrimento {
     margin-top: 30px;
 }
+
+/* GET STARTED */
+
+.get-started {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.get-started h2 {
+    color: white;
+}
+
+.get-started .button {
+    text-decoration: none;
+    color: #006aff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.get-started * {
+    margin-bottom: 30px;
+}
+
 /* RESPONSIVE */
 
 /* schermo da 768px in su */
