@@ -266,14 +266,12 @@ p {
     margin: 50px auto;
 }
 
-.slide-section .slide .arrow {
-    /* float: left; */
+/* .slide-section .slide .arrow {
     width: 10%;
     height: 100%;
-}
+} */
 
 .slide-section .slide .content {
-    /* float: left; */
     margin: auto;
     width: 80%;
     height: 100%;
@@ -289,6 +287,8 @@ p {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    font-size: 35px;
+    color: gray;
 }
 
 .slide-section .slide .arrowR {
@@ -296,14 +296,8 @@ p {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    font-size: 35px;
 }
-
-
-/* .slide-section  .slide .row i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 
 .slide-section  .slide .scorrimento {
     margin-top: 30px;
@@ -381,9 +375,32 @@ p {
     margin: 50px auto;
 }
 
+.rockerbox .slide .arrowL {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 35px;
+    color: gray;
+}
+
+.rockerbox .slide .arrowR {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 35px;
+}
+
+.rockerbox .slide .content {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
 .rockerbox .slide .card {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .rockerbox .slide a {
@@ -399,11 +416,6 @@ p {
     margin-bottom: 15px;
 }
 
-.rockerbox .slide .row i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .rockerbox .slide .scorrimento {
     margin-top: 30px;
