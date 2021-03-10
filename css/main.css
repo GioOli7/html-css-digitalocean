@@ -8,13 +8,18 @@ header {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #1a7aff;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #00ce78;
+    text-decoration: none;
 }
 
 header a {
     color: #031c4e;
-    text-decoration: none;
 }
 
 h1 {
@@ -38,14 +43,12 @@ p {
     font-size: 20px;
 }
 
-/* UTILITIES */
-
-.go_clearfix{
-    content: "";
-    display: table;
-    clear: both;
+button:active {
+    filter: brightness(93%);
 }
 
+
+/* UTILITIES */
 
 .disp-block {
     display: block;
@@ -81,6 +84,12 @@ p {
     background: linear-gradient(180deg, #0048c5, #001e9a);
 }
 
+.button {
+    border: 1px solid currentColor;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .button.bg-blue {
     background-color: #579aff;
     color: white;
@@ -100,6 +109,9 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+/* NAV */
 
 .nav img {
     width: 140px;
@@ -123,9 +135,6 @@ p {
     float: right;
     padding: 1px;
     width: 30px;
-    /* margin-right: 20px; */
-    /* height: 30px; */
-    /* background-color: red; */
 }
 
 .hamburger .ham-line {
@@ -136,10 +145,8 @@ p {
     border-radius:5px;
 }
 
-.button {
-    border: 1px solid currentColor;
-    padding: 5px 10px;
-    border-radius: 5px;
+.nav button {
+    background-color: #fff;
 }
 
 /* HERO */
@@ -164,6 +171,10 @@ p {
     padding-bottom: 35px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.hero-signup a {
+    text-decoration: underline;
 }
 
 .hero-signup input {
@@ -262,7 +273,6 @@ p {
 }
 
 .deploy-bottom ul li a{
-    text-decoration: none;
     line-height: 45px;
     color: gray;
     /* padding-left: 15px; */
@@ -289,11 +299,6 @@ p {
     max-width: 100%;
     margin: 110px auto;
 }
-
-/* .slide-section .slide .arrow {
-    width: 10%;
-    height: 100%;
-} */
 
 .slide-section .slide .content {
     margin: auto;
@@ -342,10 +347,6 @@ p {
     font-size: 18px;
 }
 
-.features a {
-    text-decoration: none;
-}
-
 .features .card{
     margin-bottom: 35px;
 }
@@ -392,12 +393,9 @@ p {
 
 .countries .test-speed a {
     color: #00d5d2;
-    text-decoration: none;
 }
 
-
 /* ROCKERBOX */
-
 
 .rockerbox {
     padding-top: 40px;
@@ -468,7 +466,6 @@ p {
 }
 
 .get-started .button {
-    text-decoration: none;
     color: #006aff;
     padding: 10px 20px;
     font-size: 20px;
@@ -489,19 +486,47 @@ footer .social div {
     margin-bottom: 5px;
 }
 
-footer .icons a{
+footer .icons a {
+    font-size: 30px;
     font-size: 30px;
     text-decoration: none;
-    color: gray;
-    font-size: 30px;
 }
+
+footer .icons a i {
+    color: gray;
+    transition: color 0.2s;
+}
+
+/* Brand color social icons in hover */
+
+footer .icons a .fa-twitter-square:hover {
+    color: #1c9cea;
+}
+
+footer .icons a .fa-facebook-square:hover {
+    color: #395693;
+}
+
+footer .icons a .fa-instagram:hover {
+    color: #bd299e;
+}
+
+footer .icons a .fa-youtube:hover {
+    color: #ec0100;
+}
+
+footer .icons a .fa-linkedin:hover {
+    color: #0e72a3;
+}
+
+
+
 
 footer ul {
     padding-left: 0;
 }
 
 footer ul li a {
-    text-decoration: none;
     color: #a6adbd;
     font-weight: bold;
     line-height: 30px;
