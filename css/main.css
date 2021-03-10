@@ -18,19 +18,24 @@ header a {
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 37px;
     font-weight: 600;
     color: white;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 600;
     color: #031c4e;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* UTILITIES */
@@ -225,6 +230,11 @@ p {
     padding-top: 40px;
 }
 
+.deploy h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .deploy h2,
 .deploy h3{
     color: #031c4e;
@@ -233,6 +243,10 @@ p {
 
 .deploy p {
     font-weight: 400;
+    font-size: 23px;
+}
+
+.deploy-bottom p {
     font-size: 18px;
 }
 
@@ -249,9 +263,8 @@ p {
 
 .deploy-bottom ul li a{
     text-decoration: none;
-    line-height: 35px;
+    line-height: 45px;
     color: gray;
-    margin-bottom: 15px;
     /* padding-left: 15px; */
     font-size: 20px;
 }
@@ -274,7 +287,7 @@ p {
 .slide-section .slide {
     position: relative;
     max-width: 100%;
-    margin: 50px auto;
+    margin: 110px auto;
 }
 
 /* .slide-section .slide .arrow {
@@ -325,6 +338,14 @@ p {
     margin-bottom: 40px;
 }
 
+.features p {
+    font-size: 18px;
+}
+
+.features a {
+    text-decoration: none;
+}
+
 .features .card{
     margin-bottom: 35px;
 }
@@ -346,6 +367,9 @@ p {
 
 .countries .riga {
     line-height: 35px;
+} 
+
+.countries .riga:not(:last-child) {
     border-bottom: 1px solid white;
 } 
 
@@ -435,8 +459,8 @@ p {
 /* GET STARTED */
 
 .get-started {
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .get-started h2 {
@@ -478,7 +502,7 @@ footer ul {
 
 footer ul li a {
     text-decoration: none;
-    color: gray;
+    color: #a6adbd;
     font-weight: bold;
     line-height: 30px;
 }
@@ -553,6 +577,11 @@ footer .shark-help .help-mex .rot-square {
 
 /* schermo da 768px in su */
 @media screen and (min-width: 768px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
     .brand ul li a img {
         width: 100%;
         height: auto;
@@ -566,6 +595,7 @@ footer .shark-help .help-mex .rot-square {
         margin-right: 15px;
     }
 
+
     .rockerbox .slide {
         max-width: 70%;
     }
@@ -578,7 +608,16 @@ footer .shark-help .help-mex .rot-square {
 
 @media screen and (min-width: 992px) {
     h1 {
-        font-size: 55px;
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .slide-section .slide {
+        margin: 50px auto;
+        margin-bottom: 10px;
     }
 
     footer .shark-help {
