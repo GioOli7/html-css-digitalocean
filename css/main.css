@@ -267,13 +267,14 @@ p {
 }
 
 .slide-section .slide .arrow {
-    float: left;
+    /* float: left; */
     width: 10%;
     height: 100%;
 }
 
 .slide-section .slide .content {
-    float: left;
+    /* float: left; */
+    margin: auto;
     width: 80%;
     height: 100%;
 }
@@ -283,9 +284,17 @@ p {
     margin-bottom: 15px;
 }
 
-.slide-section .slide .arrow i {
-    position: relative;
+.slide-section .slide .fa-chevron-left {
+    position: absolute;
     top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.slide-section .slide .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
     transform: translateY(-50%);
 }
 
@@ -426,6 +435,7 @@ p {
 
 footer {
     background-color: #031c4e;
+    padding-top: 30px;
 }
 
 footer .social div {
