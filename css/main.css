@@ -284,14 +284,14 @@ p {
     margin-bottom: 15px;
 }
 
-.slide-section .slide .fa-chevron-left {
+.slide-section .slide .arrowL {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
 }
 
-.slide-section .slide .fa-chevron-right {
+.slide-section .slide .arrowR {
     position: absolute;
     top: 50%;
     right: 0;
